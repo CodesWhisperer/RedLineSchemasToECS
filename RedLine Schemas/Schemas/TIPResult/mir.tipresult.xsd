@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://www.w3.org/2001/XMLSchema" />
+  <xs:element name="tipAnalysisResult" nillable="true" type="TIPResult" />
+  <xs:complexType name="TIPResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="resourceSnapshotList" type="ArrayOfIdentity" />
+      <xs:element minOccurs="0" maxOccurs="1" name="itemList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="xs:schema" />
+            <xs:any />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfIdentity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceSnapshot" nillable="true" type="Identity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Identity">
+    <xs:attribute name="href" type="xs:string" />
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://www.w3.org/2001/XMLSchema" />
+  <xs:element name="tipItem" nillable="true" type="TIPItem" />
+  <xs:complexType name="TIPItem">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ItemBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="sig_name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="sig_ident" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="host_name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="host_ident" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="audit_result" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="document" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="content" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="rowList" type="ArrayOfUnsignedLong" />
+          <xs:element minOccurs="0" maxOccurs="1" name="issues">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element ref="xs:schema" />
+                <xs:any />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ItemBase" abstract="true">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="detectedAnomaly" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="uid" type="xs:string" />
+    <xs:attribute name="created" type="xs:dateTime" use="required" />
+    <xs:attribute name="rowid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="ArrayOfUnsignedLong">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="row" type="xs:unsignedLong" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
