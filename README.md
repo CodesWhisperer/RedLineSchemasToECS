@@ -1,2 +1,2 @@
 # RedLineSchemasToECS
-Map RedLine schemas to Elasticsearch ECS
+Map RedLine schemas fields to Elasticsearch ECS
