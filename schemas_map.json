@@ -1,0 +1,3894 @@
+{
+    "ArpEntryItem": {
+        "fields": {
+            "Interface": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "PhysicalAddress": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IPv6Address": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IPv4Address": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CacheType": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "ArpCacheTypes",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "InterfaceType": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "State": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "ArpStateTypes",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IsRouter": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastReachable": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:duration",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastUnreachable": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:duration",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "CookieHistoryItem": {
+        "fields": {
+            "Profile": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "BrowserName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "BrowserVersion": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Username": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "HostName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CookiePath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CookieName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CookieValue": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FilePath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IsSecure": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IsHttpOnly": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CreationDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ExpirationDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastAccessedDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastModifiedDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CookieFlags": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "DiskItem": {
+        "fields": {
+            "DiskName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DiskSize": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "PartitionList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfPartitionInfo",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "DnsEntryItem": {
+        "fields": {
+            "Host": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RecordName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RecordType": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "TimeToLive": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:duration",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Flags": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DataLength": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RecordData": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "RecordData",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "DriverItem": {
+        "fields": {
+            "DriverObjectAddress": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ImageSize": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ImageBase": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DriverName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DriverInit": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DriverStartIo": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DriverUnload": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DeviceItem": {
+                "maxOccurs": "unbounded",
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "DeviceItem",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_CREATE": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_CREATE_NAMED_PIPE": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_CLOSE": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_WRITE": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_READ": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_QUERY_INFORMATION": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_SET_INFORMATION": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_QUERY_EA": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_SET_EA": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_FLUSH_BUFFERS": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_QUERY_VOLUME_INFORMATION": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_SET_VOLUME_INFORMATION": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_DIRECTORY_CONTROL": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_FILE_SYSTEM_CONTROL": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_DEVICE_CONTROL": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_INTERNAL_DEVICE_CONTROL": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_SHUTDOWN": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_LOCK_CONTROL": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_CLEANUP": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_CREATE_MAILSLOT": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_QUERY_SECURITY": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_SET_SECURITY": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_POWER": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_SYSTEM_CONTROL": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_DEVICE_CHANGE": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_QUERY_QUOTA": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_SET_QUOTA": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IRP_MJ_PNP": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SignatureExists": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SignatureVerified": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SignatureDescription": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CertificateSubject": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CertificateIssuer": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "PEInfo": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "PEInfo",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "StringList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfString",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "EventLogItem": {
+        "fields": {
+            "EID": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "log": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CorrelationActivityId": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CorrelationRelatedActivityId": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ExecutionProcessId": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ExecutionThreadId": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "index": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "type": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "categoryNum": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "genTime": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "writeTime": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "reserved": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "source": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "machine": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "user": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "category": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "message": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "unformattedMessage": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfString",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "blob": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:base64Binary",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "FileDownloadHistoryItem": {
+        "fields": {
+            "Profile": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "BrowserName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "BrowserVersion": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Username": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DownloadType": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SourceURL": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "TargetDirectory": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "TemporaryPath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Referrer": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FullHttpHeader": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "MimeType": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "StartDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "EndDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastModifiedDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastAccessedDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "State": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "BytesDownloaded": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:int",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "MaxBytes": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:int",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "AutoResume": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CacheFlags": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CacheHitCount": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:int",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastCheckedDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastCacheSynchDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "FileItem": {
+        "fields": {
+            "DevicePath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FullPath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Drive": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FilePath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileExtension": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SizeInBytes": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Created": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Modified": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Accessed": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Changed": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FilenameCreated": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FilenameModified": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FilenameAccessed": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FilenameChanged": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileAttributes": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "FileAttributes",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Username": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SecurityID": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SecurityType": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "SIDTypes",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "INode": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "StreamList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfStreamItem",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "PEInfo": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "PEInfo",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "PeakEntropy": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:double",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "PeakCodeEntropy": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:double",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "StringList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfString",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "FormHistoryItem": {
+        "fields": {
+            "Profile": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "BrowserName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "BrowserVersion": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Username": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FormType": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FormFieldName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FormFieldValue": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "UsernameFieldName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "PasswordFieldName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "HostName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "HttpRealm": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FormSubmitURL": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "UsernameFieldValue": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "EncryptedPassword": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "EncryptionType": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FirstUsedDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastUsedDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CreationDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "TimesUsed": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:int",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Guid": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "HashItem": {
+        "fields": {
+            "Md5sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Md5HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Sha1sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha1HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Sha256sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha256HashSum",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "HookItem": {
+        "fields": {
+            "HookDescription": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "HookedFunction": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "HookedModule": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "HookingModule": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DigitalSignatureHooking": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "DigitalSignatureInfo",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DigitalSignatureHooked": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "DigitalSignatureInfo",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "HookingAddress": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "ModuleItem": {
+        "fields": {
+            "ModuleAddress": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ModuleInit": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ModuleBase": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ModuleSize": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ModuleName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ModulePath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "PersistenceItem": {
+        "fields": {
+            "RegPath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RegText": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RegValue": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:base64Binary",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RegContext": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RegOwner": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RegModified": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FilePath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LinkFilePath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "PersistenceType": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileOwner": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileCreated": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileModified": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileAccessed": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileChanged": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SignatureExists": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SignatureVerified": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SignatureDescription": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CertificateSubject": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CertificateIssuer": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "md5sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Md5HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "sha1sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha1HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "sha256sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha256HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ServiceName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ServicePath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLL": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "descriptiveName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "arguments": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "mode": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "ServiceMode",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "startedAs": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "status": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "ServiceStatus",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathSignatureExists": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathSignatureVerified": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathSignatureDescription": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathCertificateSubject": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathCertificateIssuer": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathmd5sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Md5HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathsha1sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha1HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathsha256sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha256HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLSignatureExists": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLSignatureVerified": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLSignatureDescription": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLCertificateSubject": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLCertificateIssuer": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLmd5sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Md5HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLsha1sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha1HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLsha256sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha256HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RegistryItem": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "RegistryItem",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileItem": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "FileItem",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ServiceItem": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ServiceItem",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "PortItem": {
+        "fields": {
+            "pid": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:unsignedInt",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "process": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "path": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "state": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "PortState",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CreationTime": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "localIP": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "remoteIP": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "localPort": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:unsignedInt",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "remotePort": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:unsignedInt",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "protocol": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "PortProtocol",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "PrefetchItem": {
+        "fields": {
+            "FullPath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Created": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SizeInBytes": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "PrefetchHash": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ReportedSizeInBytes": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ApplicationFileName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastRun": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "TimesExecuted": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ApplicationFullPath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "AccessedFileList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfString",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "VolumeList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfVolumeItem",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "ProcessItem": {
+        "fields": {
+            "pid": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedInt",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "parentpid": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedInt",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Username": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SecurityID": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SecurityType": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "SIDTypes",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "path": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "name": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "arguments": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "startTime": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "kernelTime": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:duration",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "userTime": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:duration",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "StringList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfString",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "hidden": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "HandleList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfHandle",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SectionList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfMemorySection",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "PortList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfPortItem",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "RegistryHiveItem": {
+        "fields": {
+            "Name": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Path": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "RegistryItem": {
+        "fields": {
+            "Path": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Type": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "RegistryTypes",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Modified": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "NumSubKeys": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:int",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "NumValues": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:int",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Hive": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "KeyPath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Username": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SecurityID": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ValueName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Text": {
+                "maxOccurs": "unbounded",
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ReportedLengthInBytes": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Value": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:base64Binary",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "RouteEntryItem": {
+        "fields": {
+            "IsIPv6": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Interface": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Destination": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Gateway": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Netmask": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RouteType": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "RouteTypes",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Protocol": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ValidLifetime": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:duration",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "PreferredLifetime": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:duration",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RouteAge": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:duration",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Metric": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IsLoopback": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IsAutoconfigureAddress": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IsPublish": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IsImmortal": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Origin": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "ServiceItem": {
+        "fields": {
+            "name": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "descriptiveName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "description": {
+                "maxOccurs": "unbounded",
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "mode": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "ServiceMode",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "startedAs": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "path": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "arguments": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLL": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "status": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "ServiceStatus",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pid": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "type": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "ServiceType",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathmd5sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Md5HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathsha1sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha1HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathsha256sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha256HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathSignatureExists": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathSignatureVerified": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathSignatureDescription": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathCertificateSubject": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "pathCertificateIssuer": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLmd5sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Md5HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLsha1sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha1HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLsha256sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha256HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLCertificateSubject": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLCertificateIssuer": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLSignatureExists": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLSignatureVerified": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "serviceDLLSignatureDescription": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "StringMatchItem": {
+        "fields": {
+            "DevicePath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Sector": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Offset": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "File": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "FileItem",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Regex": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Snippet": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "SystemInfoItem": {
+        "fields": {
+            "directory": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "machine": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "totalphysical": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "availphysical": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "uptime": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:duration",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "OS": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "OSbitness": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "hostname": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "date": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "user": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "domain": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "processor": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "patchLevel": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "buildNumber": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "procType": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "productID": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "productName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "regOrg": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "regOwner": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "installDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "MAC": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "timezoneDST": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "timezoneStandard": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "biosInfo": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "BiosInfo",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "networkArray": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfNetworkInfo",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "SystemRestoreItem": {
+        "fields": {
+            "RestorePointName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RestorePointFullPath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RestorePointDescription": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RestorePointType": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Created": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ChangeEvent": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ChangeLogEntryFlags": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "RegistryHives": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfString",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ChangeLogFileName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ChangeLogEntrySequenceNumber": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ProcessName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ChangeLogEntryType": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileAttributes": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "AclChangeUsername": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "AclChangeSecurityID": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DebugInfoProcessId": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedInt",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DebugInfoThreadId": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:unsignedInt",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DebugInfoProcessName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DebugInfoTimeStamp": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "OriginalVolumePath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "OriginalShortFileName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "OriginalFileName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "NewFileName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "BackupFileName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "TaskItem": {
+        "fields": {
+            "AccountName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "VirtualPath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CreationDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "AccountRunLevel": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "AccountLogonType": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ApplicationName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Comment": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Creator": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ExitCode": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Flag": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "TaskFlags",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "MaxRunTime": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:duration",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "MostRecentRunTime": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Name": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "NextRunTime": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "TriggerList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfTrigger",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ActionList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfTaskAction",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Parameters": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Priority": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "TaskPriority",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Status": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "TaskStatus",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "WorkItemData": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:base64Binary",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "WorkingDirectory": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "md5sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Md5HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "sha1sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha1HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "sha256sum": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "Sha256HashSum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SignatureExists": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SignatureVerified": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SignatureDescription": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CertificateSubject": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CertificateIssuer": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "TimelineItem": {
+        "fields": {
+            "resourcehref": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "uid": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "time": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": false,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "type": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "field": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "summary": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "TIPItem": {
+        "fields": {
+            "sig_name": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "sig_ident": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "host_name": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "host_ident": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "audit_result": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "document": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "content": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "rowList": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfUnsignedLong",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "issues": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": null,
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "UrlHistoryItem": {
+        "fields": {
+            "Profile": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "BrowserName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "BrowserVersion": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Username": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "URL": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "PageTitle": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "HostName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Typed": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Hidden": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "VisitFrom": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "VisitType": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "VisitCount": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:int",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastVisitDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastVisitDateLocal": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FirstVisitDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FirstBookmarkDate": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Thumbnail": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IndexedContent": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "UserItem": {
+        "fields": {
+            "Username": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "fullname": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "description": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "grouplist": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "ArrayOfString",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SecurityID": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SecurityType": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "SIDTypes",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "LastLogin": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "disabled": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "lockedout": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "passwordrequired": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "userpasswordage": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:duration",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "homedirectory": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "scriptpath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    },
+    "VolumeItem": {
+        "fields": {
+            "VolumeName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DevicePath": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "DriveLetter": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Type": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "VolumeTypeEnum",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "Name": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SerialNumber": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileSystemFlags": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "VolumeFileSystemFlags",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "FileSystemName": {
+                "maxOccurs": 1,
+                "minOccurs": 0,
+                "nillable": false,
+                "type": "xs:string",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "ActualAvailableAllocationUnits": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "TotalAllocationUnits": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:long",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "BytesPerSector": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:int",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "SectorsPerAllocationUnit": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:int",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "CreationTime": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:dateTime",
+                "description": "",
+                "ECS_name": "?"
+            },
+            "IsMounted": {
+                "maxOccurs": 1,
+                "minOccurs": 1,
+                "nillable": true,
+                "type": "xs:boolean",
+                "description": "",
+                "ECS_name": "?"
+            }
+        }
+    }
+}
