@@ -666,16 +666,16 @@
                 "minOccurs": 1,
                 "nillable": false,
                 "type": "xs:long",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Identification code for this event, if one exists.",
+                "ECS_name": "event.code"
             },
             "log": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Raw text message of entire event. Used to demonstrate log integrity.",
+                "ECS_name": "event.original"
             },
             "CorrelationActivityId": {
                 "maxOccurs": 1,
@@ -698,16 +698,16 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Process id.",
+                "ECS_name": "process.pid"
             },
             "ExecutionThreadId": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Thread ID.",
+                "ECS_name": "process.thread.id"
             },
             "index": {
                 "maxOccurs": 1,
@@ -738,8 +738,8 @@
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:dateTime",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Date/time when the event originated.",
+                "ECS_name": "@timestamp"
             },
             "writeTime": {
                 "maxOccurs": 1,
@@ -762,24 +762,24 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Source of the event.",
+                "ECS_name": "event.provider"
             },
             "machine": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Name of the host.",
+                "ECS_name": "host.name"
             },
             "user": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Short name or login of the user.",
+                "ECS_name": "user.name"
             },
             "category": {
                 "maxOccurs": 1,
@@ -802,7 +802,7 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "ArrayOfString",
-                "description": "",
+                "description": "Maybe like event.original?",
                 "ECS_name": "?"
             },
             "blob": {
@@ -1018,31 +1018,31 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Device that is the source of the file.",
+                "ECS_name": "file.device"
             },
             "FullPath": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Full path to the file, including the file name. It should include the drive letter, when appropriate.",
+                "ECS_name": "file.path"
             },
             "Drive": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Drive letter where the file is located. This field is only relevant on Windows.",
+                "ECS_name": "file.drive_letter"
             },
             "FilePath": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
+                "description": "Maybe like FullPath?",
                 "ECS_name": "?"
             },
             "FileName": {
@@ -1050,63 +1050,63 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Name of the file including the extension, without the directory.",
+                "ECS_name": "file.name"
             },
             "FileExtension": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "File extension.",
+                "ECS_name": "file.extension"
             },
             "SizeInBytes": {
                 "maxOccurs": 1,
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:long",
-                "description": "",
-                "ECS_name": "?"
+                "description": "File size in bytes.",
+                "ECS_name": "file.size"
             },
             "Created": {
                 "maxOccurs": 1,
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:dateTime",
-                "description": "",
-                "ECS_name": "?"
+                "description": "File creation time.",
+                "ECS_name": "file.created"
             },
             "Modified": {
                 "maxOccurs": 1,
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:dateTime",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Last time the file content was modified.",
+                "ECS_name": "file.mtime"
             },
             "Accessed": {
                 "maxOccurs": 1,
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:dateTime",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Last time the file was accessed.",
+                "ECS_name": "file.accessed"
             },
             "Changed": {
                 "maxOccurs": 1,
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:dateTime",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Last time the file attributes or metadata changed.",
+                "ECS_name": "file.ctime"
             },
             "FilenameCreated": {
                 "maxOccurs": 1,
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:dateTime",
-                "description": "",
+                "description": "Maybe file.created?",
                 "ECS_name": "?"
             },
             "FilenameModified": {
@@ -1114,7 +1114,7 @@
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:dateTime",
-                "description": "",
+                "description": "Maybe file.ctime?",
                 "ECS_name": "?"
             },
             "FilenameAccessed": {
@@ -1122,7 +1122,7 @@
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:dateTime",
-                "description": "",
+                "description": "Maybe file.ctime?",
                 "ECS_name": "?"
             },
             "FilenameChanged": {
@@ -1130,7 +1130,7 @@
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:dateTime",
-                "description": "",
+                "description": "Maybe file.ctime?",
                 "ECS_name": "?"
             },
             "FileAttributes": {
@@ -1138,15 +1138,15 @@
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "FileAttributes",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Array of file attributes.",
+                "ECS_name": "file.attributes"
             },
             "Username": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
+                "description": "Maybe file.owner? (File owner’s username.)",
                 "ECS_name": "?"
             },
             "SecurityID": {
@@ -1154,15 +1154,15 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "The user ID (UID) or security identifier (SID) of the file owner. (example: 1001)",
+                "ECS_name": "file.uid"
             },
             "SecurityType": {
                 "maxOccurs": 1,
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "SIDTypes",
-                "description": "",
+                "description": "Maybe file.type? (File type (file, dir, or symlink).) But the type here is SIDTypes, so maybe not...",
                 "ECS_name": "?"
             },
             "INode": {
@@ -1170,8 +1170,8 @@
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:unsignedLong",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Inode representing the file in the filesystem. (example: 256383)",
+                "ECS_name": "file.inode"
             },
             "StreamList": {
                 "maxOccurs": 1,
