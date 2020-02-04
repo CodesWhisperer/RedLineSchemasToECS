@@ -7,3 +7,6 @@ The original RedLine schemas are from:
 
 You can also access with Web Archive: 
 <https://web.archive.org/web/20190109074959/https://schemas.mandiant.com>
+
+ECS Field Referenceedit:
+<https://www.elastic.co/guide/en/ecs/current/ecs-field-reference.html>
