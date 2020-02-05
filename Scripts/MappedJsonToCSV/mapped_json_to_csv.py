@@ -7,9 +7,11 @@ import json
 CURR_SCRIPT_DIR = path.dirname(path.realpath(__file__))
 ROOT_DIR = path.abspath(CURR_SCRIPT_DIR + r"\..\..")
 INPUT_JSON = path.join(ROOT_DIR, "schemas_map.json")
-OUTPUT_CSV = path.join(CURR_SCRIPT_DIR, "schemas_map.csv")
+OUTPUT_CSV = path.join(ROOT_DIR, "schemas_map3.csv")
 
 def main():
+    # TODO: Raise warning if last change in csv is newer than last json change
+
     with open(INPUT_JSON) as input_json_file, open(OUTPUT_CSV, 'w') as write_csv_file:
         json_map_data = json.load(input_json_file)
 
@@ -27,6 +29,7 @@ def main():
                     ('description', fproperties['description']),
                 ]))
 
+        # Write to csv
         keys = flat_map_list[0].keys()
         writer = csv.DictWriter(write_csv_file, keys)
         writer.writeheader()
