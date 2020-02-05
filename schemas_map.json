@@ -2250,16 +2250,16 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Full path, including hive, key and value.",
+                "ECS_name": "registry.path"
             },
             "Type": {
                 "maxOccurs": 1,
                 "minOccurs": 1,
                 "nillable": false,
                 "type": "RegistryTypes",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Standard registry type for encoding contents. example: REG_SZ",
+                "ECS_name": "registry.data.type"
             },
             "Modified": {
                 "maxOccurs": 1,
@@ -2290,24 +2290,24 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Abbreviated name for the hive.",
+                "ECS_name": "registry.hive"
             },
             "KeyPath": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Hive-relative path of keys.",
+                "ECS_name": "registry.key"
             },
             "Username": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Short name or login of the user.",
+                "ECS_name": "user.name"
             },
             "SecurityID": {
                 "maxOccurs": 1,
@@ -2322,8 +2322,8 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Name of the value written. example: Debugger",
+                "ECS_name": "registry.value"
             },
             "Text": {
                 "maxOccurs": "unbounded",
