@@ -7,7 +7,7 @@ import json
 CURR_SCRIPT_DIR = path.dirname(path.realpath(__file__))
 ROOT_DIR = path.abspath(CURR_SCRIPT_DIR + r"\..\..")
 INPUT_JSON = path.join(ROOT_DIR, "schemas_map.json")
-OUTPUT_CSV = path.join(ROOT_DIR, "schemas_map3.csv")
+OUTPUT_CSV = path.join(ROOT_DIR, "schemas_map.csv")
 
 def main():
     # TODO: Raise warning if last change in csv is newer than last json change

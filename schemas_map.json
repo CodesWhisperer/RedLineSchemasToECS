@@ -2098,16 +2098,16 @@
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:unsignedInt",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Process id.",
+                "ECS_name": "process.pid"
             },
             "parentpid": {
                 "maxOccurs": 1,
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:unsignedInt",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Process id.",
+                "ECS_name": "process.parent.pid"
             },
             "Username": {
                 "maxOccurs": 1,
