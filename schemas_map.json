@@ -2802,8 +2802,8 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Operating system name, including the version or code name.",
+                "ECS_name": "os.full"
             },
             "OSbitness": {
                 "maxOccurs": 1,
@@ -2890,8 +2890,8 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Full product name.",
+                "ECS_name": "os.full"
             },
             "regOrg": {
                 "maxOccurs": 1,
