@@ -3674,16 +3674,16 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Short name or login of the user.",
+                "ECS_name": "user.name"
             },
             "fullname": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "User's full name, if available.",
+                "ECS_name": "user.full_name"
             },
             "description": {
                 "maxOccurs": 1,
