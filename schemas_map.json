@@ -2114,8 +2114,8 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Short name or login of the user.",
+                "ECS_name": "user.name"
             },
             "SecurityID": {
                 "maxOccurs": 1,
@@ -2138,7 +2138,7 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
+                "description": "path + name = process.executable (Absolute path to the process executable.)",
                 "ECS_name": "?"
             },
             "name": {
@@ -2146,24 +2146,24 @@
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Process name. Sometimes called program name or similar.",
+                "ECS_name": "process.name"
             },
             "arguments": {
                 "maxOccurs": 1,
                 "minOccurs": 0,
                 "nillable": false,
                 "type": "xs:string",
-                "description": "",
-                "ECS_name": "?"
+                "description": "Full command line that started the process, including the absolute path to the executable, and all arguments.",
+                "ECS_name": "process.command_line"
             },
             "startTime": {
                 "maxOccurs": 1,
                 "minOccurs": 1,
                 "nillable": true,
                 "type": "xs:dateTime",
-                "description": "",
-                "ECS_name": "?"
+                "description": "The time the process started.",
+                "ECS_name": "process.start"
             },
             "kernelTime": {
                 "maxOccurs": 1,
