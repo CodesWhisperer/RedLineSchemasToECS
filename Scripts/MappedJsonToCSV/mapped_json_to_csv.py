@@ -28,6 +28,7 @@ def main():
                     ('nillable', fproperties['nillable']),
                     ('description', fproperties['description']),
                 ]))
+            flat_map_list.append({}) # Empty line between schemas
 
         # Write to csv
         keys = flat_map_list[0].keys()
